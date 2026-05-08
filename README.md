@@ -1,6 +1,6 @@
 # DriveNetSim
 
-DriveNetSim is a reinforcement learning driven vehicular edge computing simulator designed for mobility aware task offloading, intelligent handover management, collaborative vehicular execution, and multi tier resource orchestration in dynamic vehicular environments.
+DriveNetSim is an Artificial Intelligence-based vehicular edge computing simulator designed for mobility aware task offloading, intelligent handover management, collaborative vehicular execution, and multi tier resource orchestration in dynamic vehicular environments.
 
 The simulator models vehicle mobility, wireless communication, base station association, queue dynamics, resource utilization, workload generation, and distributed task execution across Vehicular Computing (VC), Mobile Edge Computing (MEC), Metro Edge (METRO), and Cloud Computing (CLOUD) layers.
 
