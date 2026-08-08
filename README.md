@@ -6,6 +6,7 @@
 
 [![Latest Release](https://img.shields.io/github/v/release/afzalbadshah/DriveNetSim?display_name=tag&label=Latest%20Release&color=brightgreen)](https://github.com/afzalbadshah/DriveNetSim/releases/latest)
 [![Release Date](https://img.shields.io/github/release-date/afzalbadshah/DriveNetSim)](https://github.com/afzalbadshah/DriveNetSim/releases)
+[![Publication DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.simpat.2026.103331-blue)](https://doi.org/10.1016/j.simpat.2026.103331)
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
 ![Schedulers](https://img.shields.io/badge/Schedulers-Random%20%7C%20Q--Learning%20%7C%20DQN%20%7C%20PPO%20%7C%20A2C-8A2BE2)
 
@@ -18,6 +19,15 @@
 > **[Latest GitHub Release ->](https://github.com/afzalbadshah/DriveNetSim/releases/latest)**
 >
 > DriveNetSim releases represent different research tracks. For exact reproducibility, use the release cited by the corresponding publication or experiment.
+
+> [!NOTE]
+> ## Main publication
+>
+> **A. Badshah, “DriveNetSim: A simulation framework for mobility aware and learning based vehicular task offloading,” _Simulation Modelling Practice and Theory_, vol. 152, article 103331, 2026.**
+>
+> **[ScienceDirect publisher page](https://www.sciencedirect.com/science/article/pii/S1569190X26000808?dgcid=author)** · **[DOI](https://doi.org/10.1016/j.simpat.2026.103331)** · **[Download the author manuscript](docs/DriveNetSim-author-manuscript.pdf)**
+>
+> The repository PDF is the author-formatted manuscript supplied for research and reference. For the version of record and its reuse terms, use the publisher page or DOI above.
 
 ## Overview
 
@@ -551,7 +561,19 @@ DriveNetSim tags represent different research tracks rather than one strictly se
 If DriveNetSim supports your research, please cite the simulator and the relevant methodology paper.
 
 ```bibtex
-@software{badshah2026drivenetsim,
+@article{badshah2026drivenetsim,
+  author  = {Badshah, Afzal},
+  title   = {DriveNetSim: A Simulation Framework for Mobility Aware
+             and Learning Based Vehicular Task Offloading},
+  journal = {Simulation Modelling Practice and Theory},
+  volume  = {152},
+  pages   = {103331},
+  year    = {2026},
+  doi     = {10.1016/j.simpat.2026.103331},
+  url     = {https://doi.org/10.1016/j.simpat.2026.103331}
+}
+
+@software{badshah2026drivenetsim_software,
   author  = {Afzal Badshah},
   title   = {DriveNetSim: A Simulation Framework for Mobility-Aware
              and Learning-Based Vehicular Task Offloading},
@@ -563,11 +585,13 @@ If DriveNetSim supports your research, please cite the simulator and the relevan
 
 ### Related publications
 
-1. A. Badshah, A. A. Gharawi, M. Eisa, N. Alzaben, S. Yonbawi, and A. Daud, "Mobility-aware Q-learning for workload offloading in vehicular edge-cloud environment," *Pervasive and Mobile Computing*, vol. 117, 102172, 2026. [https://doi.org/10.1016/j.pmcj.2026.102172](https://doi.org/10.1016/j.pmcj.2026.102172)
+1. **A. Badshah, “DriveNetSim: A simulation framework for mobility aware and learning based vehicular task offloading,” *Simulation Modelling Practice and Theory*, vol. 152, article 103331, 2026. [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1569190X26000808?dgcid=author) · [DOI](https://doi.org/10.1016/j.simpat.2026.103331) · [Author manuscript](docs/DriveNetSim-author-manuscript.pdf)**
 
-2. A. Badshah, A. S. Alzahrani, M. D. Alahmadi, S. Ghanem, R. Alsini, and A. Daud, "Decision-stability and regret diagnostics for reinforcement learning based handover in vehicular mobility," *IET Communications*, vol. 20, no. 1, e70159, 2026. [https://doi.org/10.1049/cmu2.70159](https://doi.org/10.1049/cmu2.70159)
+2. A. Badshah, A. A. Gharawi, M. Eisa, N. Alzaben, S. Yonbawi, and A. Daud, "Mobility-aware Q-learning for workload offloading in vehicular edge-cloud environment," *Pervasive and Mobile Computing*, vol. 117, 102172, 2026. [https://doi.org/10.1016/j.pmcj.2026.102172](https://doi.org/10.1016/j.pmcj.2026.102172)
 
-3. A. Badshah, A. Daud, and U. Farooq, "Q-learning-based mobility-aware offloading for multi-tier vehicular edge and cloud networks," in *2026 7th International Conference on Advancements in Computational Sciences (ICACS)*, IEEE, pp. 1-6, 2026.
+3. A. Badshah, A. S. Alzahrani, M. D. Alahmadi, S. Ghanem, R. Alsini, and A. Daud, "Decision-stability and regret diagnostics for reinforcement learning based handover in vehicular mobility," *IET Communications*, vol. 20, no. 1, e70159, 2026. [https://doi.org/10.1049/cmu2.70159](https://doi.org/10.1049/cmu2.70159)
+
+4. A. Badshah, A. Daud, and U. Farooq, "Q-learning-based mobility-aware offloading for multi-tier vehicular edge and cloud networks," in *2026 7th International Conference on Advancements in Computational Sciences (ICACS)*, IEEE, pp. 1-6, 2026.
 
 ## Contributing
 
